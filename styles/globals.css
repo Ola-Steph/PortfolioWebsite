@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .hover\:shadow-lg:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .bg-gradient-to-r {
+    background-image: linear-gradient(to right, #4f46e5, #8b5cf6);
+  }
+    
+/* Add custom global styles if needed */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h2 {
+  @apply text-gray-900;
+}
+
+a {
+  @apply transition-colors duration-300;
+}
+
